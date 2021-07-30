@@ -2,32 +2,17 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   parserOptions: {
     parser: 'babel-eslint',
-    ecmaFeatures: {
-      modules: true
-    }
   },
   extends: [
-    'plugin:vue/recommended',
-    // 'plugin:prettier/recommended'
+    '@nuxtjs',
+    'plugin:prettier/recommended',
+    'plugin:nuxt/recommended',
   ],
-  // required to lint *.vue files
-  plugins: [
-    'vue',
-    'prettier'
-  ],
+  plugins: [],
   // add your custom rules here
-  rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'vue/html-closing-bracket-newline': ['error', {
-      'singleline': 'never',
-      'multiline': 'never'
-    }],
-    'vue/multiline-html-element-content-newline': 'off',
-    'vue/return-in-computed-property': 'off'
-  }
+  rules: {},
 }
