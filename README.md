@@ -1,4 +1,4 @@
-# tourinesia-frontend-seller
+# seller
 
 ## Build Setup
 
