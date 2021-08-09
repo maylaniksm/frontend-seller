@@ -1344,6 +1344,7 @@
               <ul aria-expanded="false">
                 <li><a href="index.html">Dashboard Light</a></li>
                 <li><a href="index-2.html">Dashboard Dark</a></li>
+                <li><NuxtLink to="rekomendasi.vue">Rekomendasi</NuxtLink></li>
                 <li><a href="my-wallet.html">My Wallet</a></li>
                 <li><a href="page-invoices.html">Invoices</a></li>
                 <li><a href="cards-center.html">Cards Center</a></li>
