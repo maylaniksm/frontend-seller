@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="main-wrapper">
+       <div id="main-wrapper">
 
         <!--**********************************
             Nav header start
@@ -49,12 +49,12 @@
 					<div class="tab-pane fade active show" id="chat" role="tabpanel">
 						<div class="card mb-sm-3 mb-md-0 contacts_card dlab-chat-user-box">
 							<div class="card-header chat-list-header text-center">
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
 								<div>
 									<h6 class="mb-1">Chat List</h6>
 									<p class="mb-0">Show All</p>
 								</div>
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
 							</div>
 							<div class="card-body contacts_body p-0 dlab-scroll  " id="dlab_W_Contacts_Body">
 								<ul class="contacts">
@@ -248,7 +248,7 @@
 						</div>
 						<div class="card chat dlab-chat-history-box d-none">
 							<div class="card-header chat-list-header text-center">
-								<a href="javascript:void(0);" class="dlab-chat-history-back">
+								<a href="#" class="dlab-chat-history-back">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"/><rect fill="#000000" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"/><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "/></g></svg>
 								</a>
 								<div>
@@ -256,7 +256,7 @@
 									<p class="mb-0 text-success">Online</p>
 								</div>							
 								<div class="dropdown">
-									<a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
+									<a href="#" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
 									<ul class="dropdown-menu dropdown-menu-end">
 										<li class="dropdown-item"><i class="fa fa-user-circle text-primary me-2"></i> View profile</li>
 										<li class="dropdown-item"><i class="fa fa-users text-primary me-2"></i> Add to btn-close friends</li>
@@ -406,12 +406,12 @@
 					<div class="tab-pane fade" id="alerts" role="tabpanel">
 						<div class="card mb-sm-3 mb-md-0 contacts_card">
 							<div class="card-header chat-list-header text-center">
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
 								<div>
 									<h6 class="mb-1">Notications</h6>
 									<p class="mb-0">Show All</p>
 								</div>
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
 							</div>
 							<div class="card-body contacts_body p-0 dlab-scroll" id="dlab_W_Contacts_Body1">
 								<ul class="contacts">
@@ -462,12 +462,12 @@
 					<div class="tab-pane fade" id="notes">
 						<div class="card mb-sm-3 mb-md-0 note_card">
 							<div class="card-header chat-list-header text-center">
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
 								<div>
 									<h6 class="mb-1">Notes</h6>
 									<p class="mb-0">Add New Nots</p>
 								</div>
-								<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
 							</div>
 							<div class="card-body contacts_body p-0 dlab-scroll" id="dlab_W_Contacts_Body2">
 								<ul class="contacts">
@@ -478,8 +478,8 @@
 												<p>10 Aug 2020</p>
 											</div>
 											<div class="ms-auto">
-												<a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
-												<a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+												<a href="#" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+												<a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
 											</div>
 										</div>
 									</li>
@@ -490,8 +490,8 @@
 												<p>10 Aug 2020</p>
 											</div>
 											<div class="ms-auto">
-												<a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
-												<a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+												<a href="#" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+												<a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
 											</div>
 										</div>
 									</li>
@@ -502,8 +502,8 @@
 												<p>10 Aug 2020</p>
 											</div>
 											<div class="ms-auto">
-												<a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
-												<a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+												<a href="#" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+												<a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
 											</div>
 										</div>
 									</li>
@@ -514,8 +514,8 @@
 												<p>10 Aug 2020</p>
 											</div>
 											<div class="ms-auto">
-												<a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
-												<a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+												<a href="#" class="btn btn-primary btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+												<a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
 											</div>
 										</div>
 									</li>
@@ -529,8 +529,11 @@
 		<!--**********************************
             Chat box End
         ***********************************-->
+
+
 		
-		<!--**********************************
+		
+        <!--**********************************
             Header start
         ***********************************-->
         <div class="header">
@@ -539,12 +542,12 @@
                     <div class="collapse navbar-collapse justify-content-between">
                         <div class="header-left">
 							<div class="dashboard_bar">
-                                Gift For Costumer
+                                Pesanan 
                             </div>
                         </div>
                         <ul class="navbar-nav header-right">
 							<li class="nav-item">
-								<div class="input-group search-area d-xl-inline-flex d-none">
+								<div class="input-group search-area">
 									<input type="text" class="form-control" placeholder="Search here...">
 									<span class="input-group-text"><a href="javascript:void(0)"><i class="flaticon-381-search-2"></i></a></span>
 								</div>
@@ -707,6 +710,7 @@
 				</nav>
 			</div>
 		</div>
+                    
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -808,7 +812,6 @@
                             <li><a href="ui-modal.html">Modal</a></li>
                             <li><a href="ui-button-group.html">Button Group</a></li>
                             <li><a href="ui-list-group.html">List Group</a></li>
-                            <li><a href="page-error-404.html">Media Object</a></li>
                             <li><a href="ui-card.html">Cards</a></li>
                             <li><a href="ui-carousel.html">Carousel</a></li>
                             <li><a href="ui-dropdown.html">Dropdown</a></li>
@@ -891,356 +894,461 @@
         <!--**********************************
             Sidebar end
         ***********************************-->
-		
-		<!--**********************************
+
+        <!--**********************************
             Content body start
         ***********************************-->
         <div class="content-body">
-            <!-- row -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="card-slider owl-carousel">
-							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
-									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
-									<div class="card-info text-white">
-										<div class="d-flex align-items-center">
-											<div class="me-auto">
-												<h2 class="fs-36 text-white mb-5">Voucher Toko</h2>
-												<a href="javascript:void(0);" class="btn btn-outline-primary mb-3"><i class="fa fa-plus-square me-3 scale3"></i>Tambah</a>
-												<p class="mb-1">$673,412.66</p>
-											</div>
-											<img src="images/pattern/circle.png" class="mb-4" alt="">
-										</div>
-										<div class="d-flex">
-											<div class="me-sm-5 me-3">
-												<p class="fs-14 mb-1">VALID THRU</p>
-												<span>08/21</span>
-											</div>
-											<div>
-												<p class="fs-14 mb-1">CARD HOLDER</p>
-												<span>Franklin Jr.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
-									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
-									<div class="card-info text-white">
-										<div class="d-flex align-items-center">
-											<div class="me-auto">
-												<h2 class="fs-36 text-white mb-5">Promo Toko</h2>
-												<a href="javascript:void(0);" class="btn btn-outline-primary mb-3"><i class="fa fa-plus-square me-3 scale3"></i>Tambah</a>
-												<p class="mb-1">$673,412.66</p>
-											</div>
-											<img src="images/pattern/circle.png" class="mb-4" alt="">
-										</div>
-										<div class="d-flex">
-											<div class="me-sm-5 me-3">
-												<p class="fs-14 mb-1">VALID THRU</p>
-												<span>08/21</span>
-											</div>
-											<div>
-												<p class="fs-14 mb-1">CARD HOLDER</p>
-												<span>Franklin Jr.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
-									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
-									<div class="card-info text-white">
-										<div class="d-flex align-items-center">
-											<div class="me-auto">
-												<h2 class="fs-36 text-white mb-5">Diskon</h2>
-												<a href="javascript:void(0);" class="btn btn-outline-primary mb-3"><i class="fa fa-plus-square me-3 scale3"></i>Tambah</a>
-												<p class="mb-1">$673,412.66</p>
-											</div>
-											<img src="images/pattern/circle.png" class="mb-4" alt="">
-										</div>
-										<div class="d-flex">
-											<div class="me-sm-5 me-3">
-												<p class="fs-14 mb-1">VALID THRU</p>
-												<span>08/21</span>
-											</div>
-											<div>
-												<p class="fs-14 mb-1">CARD HOLDER</p>
-												<span>Franklin Jr.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
-									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
-									<div class="card-info text-white">
-										<div class="d-flex align-items-center">
-											<div class="me-auto">
-												<h2 class="fs-36 text-white mb-5">Flash Sale Toko</h2>
-												<a href="javascript:void(0);" class="btn btn-outline-primary mb-3"><i class="fa fa-plus-square me-3 scale3"></i>Tambah</a>
-												<p class="mb-1">$673,412.66</p>
-											</div>
-											<img src="images/pattern/circle.png" class="mb-4" alt="">
-										</div>
-										<div class="d-flex">
-											<div class="me-sm-5 me-3">
-												<p class="fs-14 mb-1">VALID THRU</p>
-												<span>08/21</span>
-											</div>
-											<div>
-												<p class="fs-14 mb-1">CARD HOLDER</p>
-												<span>Franklin Jr.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+            <div class="container-fluid">
+				<div class="d-flex flex-wrap align-items-center mb-3">
+					<div class="mb-3 me-auto">
+						<div class="card-tabs style-1 mt-3 mt-sm-0">
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" href="javascript:void(0);" data-bs-toggle="tab" id="transaction-tab" data-bs-target="#AllTransaction" role="tab">Semua</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" id="Canceled-tab" data-bs-target="#Canceled" role="tab">Belum Bayar</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" id="Canceled-tab" data-bs-target="#Canceled" role="tab">Dikemas</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" id="Completed-tab" data-bs-target="#Completed" role="tab">Pengiriman</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" id="Pending-tab" data-bs-target="#Pending" role="tab">Pembatalan</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" id="Canceled-tab" data-bs-target="#Canceled" role="tab">Pengembalian</a>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="col-xl-9">
-						<div class="row">
-							<div class="col-xl-12">
-								<div class="card">
-									<div class="card-header flex-wrap border-0 pb-0 align-items-end">
-										<div class="mb-3 me-3">
-											<h5 class="fs-20 text-black font-w500">Main Balance</h5>
-											<span class="text-num text-black fs-36 font-w500">$673,412.66</span>
-										</div>
-										<div class="me-3 mb-3">
-											<p class="fs-14 mb-1">VALID THRU</p>
-											<span class="text-black fs-16">08/21</span>
-										</div>
-										<div class="me-3 mb-3">
-											<p class="fs-14 mb-1">CARD HOLDER</p>
-											<span class="text-black fs-16">WilliamFacyson</span>
-										</div>
-										<span class="fs-20 text-black font-w500 me-3 mb-3">**** **** **** 1234</span>
-										<div class="dropdown mb-auto">
-											<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-												</svg>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-												<a class="dropdown-item" href="javascript:void(0);">Edit</a>
-											</div>
-										</div>
-									</div>
-									<div class="card-body">
-										<div class="progress default-progress">
-											<div class="progress-bar bg-gradient-5 progress-animated" style="width: 50%; height:20px;" role="progressbar">
-												<span class="sr-only">50% Complete</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-12">
-								<div class="card">
-									<div class="card-header d-sm-flex d-block border-0 pb-0">
-										<div class="me-auto mb-sm-0 mb-4">
-											<h4 class="fs-20 text-black">Card List</h4>
-											<span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
-										</div>
-										<a href="javascript:void(0);" class="btn btn-primary btn-rounded btn-md mx-3">+Add New Card</a>
-										<select class="default-select dashboard-select">
-										  <option data-display="newest">newest</option>
-										  <option value="1">newest</option>
-										  <option value="2">oldest</option>
-										</select>
-									</div>
-									<div class="card-body pb-0">
-										<div class="d-flex mb-3 border-bottom justify-content-between flex-wrap align-items-center">
-											<div class="d-flex pb-3 align-items-center">
-												<img src="images/card/1.jpg" alt="" class="rounded me-3 card-list-img" width="130">
-												<div class="me-3">
-													<p class="fs-14 mb-1">Card Type</p>
-													<span class="text-black font-w500">Primary</span>
-												</div>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Bank</p>
-												<span class="text-black font-w500">ABC Bank</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Card Number</p>
-												<span class="text-black font-w500">**** **** **** 2256</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Namein Card</p>
-												<span class="text-black font-w500">Franklin Jr.</span>
-											</div>
-											<a href="javascript:void(0);" class="fs-14 btn-link me-3 pb-3">See Number</a>
-											<div class="dropdown pb-3">
-												<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													</svg>
-												</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-													<a class="dropdown-item" href="javascript:void(0);">Edit</a>
-												</div>
-											</div>
-										</div>
-										<div class="d-flex mb-3 border-bottom justify-content-between flex-wrap align-items-center">
-											<div class="d-flex pb-3 align-items-center">
-												<img src="images/card/2.jpg" alt="" class="rounded me-3 card-list-img" width="130">
-												<div class="me-3">
-													<p class="fs-14 mb-1">Card Type</p>
-													<span class="text-black font-w500">Secondary</span>
-												</div>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Bank</p>
-												<span class="text-black font-w500">ABC Bank</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Card Number</p>
-												<span class="text-black font-w500">**** **** **** 2256</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Namein Card</p>
-												<span class="text-black font-w500">Franklin Jr.</span>
-											</div>
-											<a href="javascript:void(0);" class="fs-14 btn-link me-3 pb-3">See Number</a>
-											<div class="dropdown pb-3">
-												<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													</svg>
-												</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-													<a class="dropdown-item" href="javascript:void(0);">Edit</a>
-												</div>
-											</div>
-										</div>
-										<div class="d-flex mb-3 border-bottom justify-content-between flex-wrap align-items-center">
-											<div class="d-flex pb-3 align-items-center">
-												<img src="images/card/3.jpg" alt="" class="rounded me-3 card-list-img" width="130">
-												<div class="me-3">
-													<p class="fs-14 mb-1">Card Type</p>
-													<span class="text-black font-w500">Primary</span>
-												</div>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Bank</p>
-												<span class="text-black font-w500">ABC Bank</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Card Number</p>
-												<span class="text-black font-w500">**** **** **** 2256</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Namein Card</p>
-												<span class="text-black font-w500">Franklin Jr.</span>
-											</div>
-											<a href="javascript:void(0);" class="fs-14 btn-link me-3 pb-3">See Number</a>
-											<div class="dropdown pb-3">
-												<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													</svg>
-												</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-													<a class="dropdown-item" href="javascript:void(0);">Edit</a>
-												</div>
-											</div>
-										</div>
-										<div class="d-flex mb-3 border-bottom justify-content-between flex-wrap align-items-center">
-											<div class="d-flex pb-3 align-items-center">
-												<img src="images/card/4.jpg" alt="" class="rounded me-3 card-list-img" width="130">
-												<div class="me-3">
-													<p class="fs-14 mb-1">Card Type</p>
-													<span class="text-black font-w500">Primary</span>
-												</div>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Bank</p>
-												<span class="text-black font-w500">ABC Bank</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Card Number</p>
-												<span class="text-black font-w500">**** **** **** 2256</span>
-											</div>
-											<div class="me-3 pb-3">
-												<p class="fs-14 mb-1">Namein Card</p>
-												<span class="text-black font-w500">Franklin Jr.</span>
-											</div>
-											<a href="javascript:void(0);" class="fs-14 btn-link me-3 pb-3">See Number</a>
-											<div class="dropdown pb-3">
-												<a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-														<path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke="#575757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-													</svg>
-												</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-													<a class="dropdown-item" href="javascript:void(0);">Edit</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3">
-						<div class="row">
-							<div class="col-xl-12">
-								<div class="card">
-									<div class="card-header border-0 pb-0">
-										<div>
-											<h4 class="card-title mb-2">Card Statistic</h4>
-											<span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
-										</div>
-									</div>
-									<div class="card-body">
-										<canvas id="polarChart" class="maxh250"></canvas>
-										<ul class="card-list mt-4">
-											<li><span class="bg-blue circle"></span>Account<span>20%</span></li>
-											<li><span class="bg-success circle"></span>Services<span>40%</span></li>
-											<li><span class="bg-warning circle"></span>Restaurant<span>15%</span></li>
-											<li><span class="bg-light circle"></span>Others<span>15%</span></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<a href="javascript:void(0);" class="btn btn-outline-primary mb-3"><i class="fa fa-plus-square me-3 scale3"></i>Tambah</a>
 				</div>
+				
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="align-middle">
+                                                    <div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="checkAll">
+														<label class="form-check-label" for="checkAll"></label>
+													</div>
+                                                </th>
+                                                <th class="align-middle">Pesanan</th>
+                                                <th class="align-middle pe-7">Tanggal</th>
+                                                <th class="align-middle" style="min-width: 12.5rem;">Alamat Pemesan</th>
+                                                <th class="align-middle text-end">Status</th>
+                                                <th class="align-middle text-end">Harga</th>
+                                                <th class="no-sort"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="orders">
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-success">
+														<input type="checkbox" class="form-check-input" id="checkbox">
+														<label class="form-check-label" for="checkbox"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#181</strong></a> by <strong>Ricky
+                                                        Antony</strong><br /><a href="mailto:ricky@example.com">ricky@example.com</a></td>
+                                                <td class="py-2">20/04/2020</td>
+                                                <td class="py-2">Ricky Antony, 2392 Main Avenue, Penasauka, New Jersey 02149
+                                                    <p class="mb-0 text-500">Via Flat Rate</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-success">Completed<span
+                                                            class="ms-1 fa fa-check"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$99
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-0" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-0">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox ">
+														<input type="checkbox" class="form-check-input" id="checkbox1">
+														<label class="form-check-label" for="checkbox1"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#182</strong></a> by <strong>Kin Rossow</strong><br /><a href="mailto:kin@example.com">kin@example.com</a></td>
+                                                <td class="py-2">20/04/2020</td>
+                                                <td class="py-2">Kin Rossow, 1 Hollywood Blvd,Beverly Hills, California 90210
+                                                    <p class="mb-0 text-500">Via Free Shipping
+                                                    </p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-primary">Processing<span
+                                                            class="ms-1 fa fa-redo"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$120
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-1" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-1">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-secondary">
+														<input type="checkbox" class="form-check-input" id="checkbox2">
+														<label class="form-check-label" for="checkbox2"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#183</strong></a> by <strong>Merry
+                                                        Diana</strong><br /><a href="mailto:merry@example.com">merry@example.com</a></td>
+                                                <td class="py-2">30/04/2020</td>
+                                                <td class="py-2">Merry Diana, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Link Road</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-secondary">On
+                                                        Hold<span class="ms-1 fa fa-ban"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$70
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-2" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-2">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox  checkbox-warning">
+														<input type="checkbox" class="form-check-input" id="checkbox3">
+														<label class="form-check-label" for="checkbox3"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#184</strong></a> by <strong>Bucky
+                                                        Robert</strong><br /><a href="mailto:bucky@example.com">bucky@example.com</a></td>
+                                                <td class="py-2">30/04/2020</td>
+                                                <td class="py-2">Bucky Robert, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Free Shipping</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-warning">Pending<span
+                                                            class="ms-1 fas fa-stream"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$92
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-3" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-3">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-secondary">
+														<input type="checkbox" class="form-check-input" id="checkbox4">
+														<label class="form-check-label" for="checkbox4"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#185</strong></a> by <strong>Rocky
+                                                        Zampa</strong><br /><a href="mailto:rocky@example.com">rocky@example.com</a></td>
+                                                <td class="py-2">30/04/2020</td>
+                                                <td class="py-2">Rocky Zampa, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Free Road</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-secondary">On
+                                                        Hold<span class="ms-1 fa fa-ban"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$120
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-4" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-4">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox ">
+														<input type="checkbox" class="form-check-input" id="checkbox5">
+														<label class="form-check-label" for="checkbox5"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#186</strong></a> by <strong>Ricky John</strong><br /><a href="mailto:ricky@example.com">ricky@example.com</a></td>
+                                                <td class="py-2">30/04/2020</td>
+                                                <td class="py-2">Ricky John, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Free Shipping</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-primary">Processing<span
+                                                            class="ms-1 fa fa-redo"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$145
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-5" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-5">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-success">
+														<input type="checkbox" class="form-check-input" id="checkbox6">
+														<label class="form-check-label" for="checkbox6"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#187</strong></a> by <strong>Cristofer
+                                                        Henric</strong><br /><a href="mailto:cristofer@example.com">cristofer@example.com</a>
+                                                </td>
+                                                <td class="py-2">30/04/2020</td>
+                                                <td class="py-2">Cristofer Henric, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Flat Rate
+                                                    </p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-success">Completed<span
+                                                            class="ms-1 fa fa-check"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$55
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-6" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-6">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-secondary">
+														<input type="checkbox" class="form-check-input" id="checkbox7">
+														<label class="form-check-label" for="checkbox7"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#188</strong></a> by <strong>Brate Lee</strong><br /><a href="mailto:lee@example.com">lee@example.com</a></td>
+                                                <td class="py-2">29/04/2020</td>
+                                                <td class="py-2">Brate Lee, 1 Infinite Loop, Cupertino, California 90210
+                                                    <p class="mb-0 text-500">Via Link Road</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-secondary">On
+                                                        Hold<span class="ms-1 fa fa-ban"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$90
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-7" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-7">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox ">
+														<input type="checkbox" class="form-check-input" id="checkbox8">
+														<label class="form-check-label" for="checkbox8"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#189</strong></a> by <strong>Thomas
+                                                        Stephenson</strong><br /><a href="mailto:Stephenson@example.com">Stephenson@example.com</a>
+                                                </td>
+                                                <td class="py-2">29/04/2020</td>
+                                                <td class="py-2">Thomas Stephenson, 116 Ballifeary Road, Bamff
+                                                    <p class="mb-0 text-500">Via Flat Rate</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-primary">Processing<span
+                                                            class="ms-1 fa fa-redo"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$52
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-8" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-8">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-success">
+														<input type="checkbox" class="form-check-input" id="checkbox9">
+														<label class="form-check-label" for="checkbox9"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#190</strong></a> by <strong>Evie Singh</strong><br /><a href="mailto:eviewsing@example.com">eviewsing@example.com</a>
+                                                </td>
+                                                <td class="py-2">29/04/2020</td>
+                                                <td class="py-2">Evie Singh, 54 Castledore Road, Tunstead
+                                                    <p class="mb-0 text-500">Via Flat Rate</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-success">Completed<span
+                                                            class="ms-1 fa fa-check"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$90
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-9" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-9">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox checkbox-success">
+														<input type="checkbox" class="form-check-input" id="checkbox10">
+														<label class="form-check-label" for="checkbox10"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#191</strong></a> by <strong>David
+                                                        Peters</strong><br /><a href="mailto:peter@example.com">peter@example.com</a></td>
+                                                <td class="py-2">29/04/2020</td>
+                                                <td class="py-2">David Peters, Rhyd Y Groes, Rhosgoch, LL66 0AT
+                                                    <p class="mb-0 text-500">Via Link Road</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-success">Completed<span
+                                                            class="ms-1 fa fa-check"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$69
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-10" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-10">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn-reveal-trigger">
+                                                <td class="py-2">
+                                                    <div class="form-check custom-checkbox ">
+														<input type="checkbox" class="form-check-input" id="checkbox11">
+														<label class="form-check-label" for="checkbox11"></label>
+													</div>
+                                                </td>
+                                                <td class="py-2">
+                                                    <a href="#">
+                                                        <strong>#192</strong></a> by <strong>Jennifer
+                                                        Johnson</strong><br /><a href="mailto:jennifer@example.com">jennifer@example.com</a></td>
+                                                <td class="py-2">28/04/2020</td>
+                                                <td class="py-2">Jennifer Johnson, Rhyd Y Groes, Rhosgoch, LL66 0AT
+                                                    <p class="mb-0 text-500">Via Flat Rate</p>
+                                                </td>
+                                                <td class="py-2 text-end"><span class="badge badge-primary">Processing<span
+                                                            class="ms-1 fa fa-redo"></span></span>
+                                                </td>
+                                                <td class="py-2 text-end">$112
+                                                </td>
+                                                <td class="py-2 text-end">
+                                                    <div class="dropdown text-sans-serif"><button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-11" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span></button>
+                                                        <div class="dropdown-menu dropdown-menu-end border py-0" aria-labelledby="order-dropdown-11">
+                                                            <div class="py-2"><a class="dropdown-item" href="javascript:void(0);">Completed</a><a class="dropdown-item" href="javascript:void(0);">Processing</a><a class="dropdown-item" href="javascript:void(0);">On Hold</a><a class="dropdown-item" href="javascript:void(0);">Pending</a>
+                                                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+							<div class="card-body">
+								<nav>
+                                    <ul class="pagination pagination-gutter pagination-primary no-bg">
+                                        <li class="page-item page-indicator">
+                                            <a class="page-link" href="javascript:void(0)">
+                                                <i class="la la-angle-left"></i></a>
+                                        </li>
+                                        <li class="page-item "><a class="page-link" href="javascript:void(0)">1</a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">4</a></li>
+                                        <li class="page-item page-indicator">
+                                            <a class="page-link" href="javascript:void(0)">
+                                                <i class="la la-angle-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--**********************************
             Content body end
         ***********************************-->
-		
-		
-		
+
+
         <!--**********************************
             Footer start
         ***********************************-->
         <div class="footer">
-		
             <div class="copyright">
                 <p>Copyright © Designed &amp; Developed by <a href="https://dexignlab.com/" target="_blank">DexignLab</a> 2021</p>
             </div>
@@ -1249,16 +1357,16 @@
             Footer end
         ***********************************-->
 
-		<!--**********************************
+        <!--**********************************
            Support ticket button start
         ***********************************-->
-		
+
         <!--**********************************
            Support ticket button end
         ***********************************-->
 
 
-	</div>
+    </div>
   </div>
 </template>
 

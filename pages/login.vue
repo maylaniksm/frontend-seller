@@ -9,44 +9,44 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
 									<div class="text-center mb-3">
-                                        <center><h2>TOUR.IN</h2></center>
+                                        <center><h2>TOURINESIA</h2></center>
 										<!-- <a href="index.html"><img src="images/logo-full.png" alt=""></a> -->
 									</div>
-                                    <h4 class="text-center mb-4">Sign in your account</h4>
+                                    <h4 class="text-center mb-4">Masuk ke Akun Anda</h4>
                                     <form action="https://dompet.dexignlab.com/xhtml/index.html">
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Email</strong></label>
-                                            <input type="email" class="form-control" value="hello@example.com">
+                                            <input type="email" class="form-control" value="Alamat Email">
                                         </div>
                                         <div class="mb-3">
-                                            <label class="mb-1"><strong>Password</strong></label>
+                                            <label class="mb-1"><strong>Kata Sandi</strong></label>
                                             <input type="password" class="form-control" value="Password">
                                         </div>
                                         <div class="row d-flex justify-content-between mt-4 mb-2">
                                             <div class="mb-3">
                                                <div class="form-check custom-checkbox ms-1">
 													<input type="checkbox" class="form-check-input" id="basic_checkbox_1">
-													<label class="form-check-label" for="basic_checkbox_1">Remember my preference</label>
+													<label class="form-check-label" for="basic_checkbox_1">Selalu Ingat Akun Saya</label>
 												</div>
                                             </div>
                                             <div class="mb-3">
-                                                <a href="page-forgot-password.html">Forgot Password?</a>
+                                                <a href="page-forgot-password.html">Lupa Password?</a>
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
                                         </div>
                                         <hr>
                                         <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
+                                            <i class="fab fa-google fa-fw"></i> Masuk dengan Google
                                         </a>
                                         <hr>
                                         <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                                            <i class="fab fa-facebook-f fa-fw"></i> Masuk dengan Facebook
                                         </a>
                                     </form>
                                     <div class="new-account mt-3">
-                                        <p>Don't have an account? <a class="text-primary" href="page-register.html">Sign up</a></p>
+                                        <center><p>Belum Punya Akun? <a class="text-primary" href="page-register.html">Daftar!</a></p></center>
                                     </div>
                                 </div>
                             </div>
