@@ -927,7 +927,7 @@
 								</div>
 							</div>
 							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
+								<div class="card-bx bg-purpel mb-0">
 									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
 									<div class="card-info text-white">
 										<div class="d-flex align-items-center">
@@ -952,7 +952,7 @@
 								</div>
 							</div>
 							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
+								<div class="card-bx bg-green mb-0">
 									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
 									<div class="card-info text-white">
 										<div class="d-flex align-items-center">
@@ -977,7 +977,7 @@
 								</div>
 							</div>
 							<div class="items my-3">
-								<div class="card-bx bg-orange mb-0">
+								<div class="card-bx bg-blue mb-0">
 									<img class="pattern-img" src="images/pattern/pattern8.png" alt="">
 									<div class="card-info text-white">
 										<div class="d-flex align-items-center">
